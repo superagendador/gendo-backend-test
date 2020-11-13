@@ -1,32 +1,31 @@
-# Teste para vaga dev. Flutter na Gendo
-Este repositório tem como fim testar os candidatos para vaga dev. Flutter na empresa [Gendo](https://gendo.com.br).
-> Para esta vaga buscamos alguém apaixonado por mobile e atento aos detalhes!
+# Teste para vaga dev. Back-end na Gendo
+Este repositório tem como fim testar os candidatos para vaga dev. back-end na empresa [Gendo](https://gendo.com.br).
+> Para esta vaga buscamos alguém organizado e aficcionado por arquitetura de projetos e otimização de performance!
 
 
 ## Instruções Básicas
 1. Faça um fork deste repositório
-2. Implemente o layout de forma que fique fiel aos fontes mobile anexos neste teste
-3. Atenção com espaçamentos e tamanhos de fonte
-4. Qualquer contribuição para melhorar o resultado será bem vinda!
-5. O usuário do GitHub utilizado no exemplo pode ser qualquer um de sua escolha
-6. Ao finalizar, atualize o README.md no seu repositório com as instruções para instalar e executar sua entrega
+2. Implemente APIs de forma que simplifique ao máximo a implmenetação das telas em anexo neste teste
+3. Atenção com nomeclatura de variáveis e funções, código precisa ser de fácil interpretação
+4. Ao finalizar, atualize o README.md no seu repositório com as instruções para instalar e executar sua API
 
-## Desafio (opcional para Junior), a página deve:
-1. Carregar os dados de forma dinâmica utilizando a [API do GitHub](https://developer.github.com/v3/)
-2. Carregar os repositórios do usuário inicialmente
-3. Carregar os favoritos do usuário ao acessar a tab **Starred**
-4. Fazer uma busca ao digitar e fazer o submit com "Enter"
+## Rotas importantes que a API deve implementar:
+1. Carregar os repositórios do usuário, com possibilidade de paginação
+2. Carregar os favoritos do usuário para a tab **Starred**
+3. Filtrar repositórios do usuário
+4. O controle de acesso a API é um bonus
 
 ## O que esperamos no teste
-* Um código Dart organizado com nomes de variáveis e funções auto explicativas
-* Uma boa doc. para compilar o projeto corretamente para Andorid e iOS
+* Uma boa doc. para deploy do projeto
+* Arquitetura orientada a microserviços
 
 ## Stack
 ### Preferível
-* Dart/Flutter
+* Node
+* Docker ou Serverless
 
 ## Material
-Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
+O layout do projeto para consulta está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 
 ### Como acessar o Zeplin
 1. Acesse o [link do projeto](https://zpl.io/25q7DKo)
@@ -35,4 +34,4 @@ Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
 4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
 
 ## Envio do teste
-1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Dev. Flutter** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
+1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Dev. Back-end** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
