@@ -22,6 +22,7 @@ Este repositório tem como fim testar os candidatos para vaga dev. back-end na e
 ## Stack
 ### Preferível
 * Node
+* Mongo ou MySQL
 * Docker ou Serverless
 
 ## Material
